@@ -1,6 +1,129 @@
 <html>
-<header><title>This is title</title></header>
+<header>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <title>Imre Toth</title></header>
+<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+
+<script defer src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 <body>
-Hello world
+    <ul id="navbar">
+        <li><a class="page active" onclick="showIndex()">About</a></li>
+        <li><a  class="page" onclick="showProjects()">Projects</a></li>
+        <li><a  class="page" onclick="showContact()">Contact</a></li>
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                        <div class="carousel-item active">
+                <img src="img/photo.jpg" height="82%" width="100%">
+                        </div>
+                        <div class="carousel-item">
+                                <img src="img/photo1.jpg" height="82%" width="100%">
+                        </div>
+                        <div class="carousel-item">
+                                <img src="img/photo2.jpg" height="82%" width="100%">
+                        </div>
+                </div>
+        </div>
+
+      </ul>
+    </div>
+      <div  id="particles-js" >  
+            <div id="about">
+                    <div class="intro"  id="intro">
+                      <h1>Hello stranger! <br>My name is Imre Toth and i'm an <div id="age" class="counter" data-count="">0</div> year old developer.
+                      </h1>
+                      <br>
+                      Currently: Web developer at <img src="img/logo.png">
+                      </div>
+                      <br>
+                    <div class="hobbies">
+                        <h1>A few of my hobbies:</h1><br>
+                        <h3>$$\sum_i Mathematics\sum_i$$</h3>
+                        <br>
+                        <h3><i class="fas fa-gamepad"></i>Video games<i class="fas fa-gamepad"></i></h3>
+                        <br>
+                        <h3>and of course</h3><br>
+                        <h3><i class="fas fa-code"></i>Programming<i class="fas fa-code"></i></h3>
+                    </div>
+                </div>
+                    <div id="projects" >
+                            <h1>Current skills:C | C++ | <i class="fab fa-python"></i> | <i class="fab fa-php"></i> | MySQL | <i class="fab fa-js"></i> | <i class="fab fa-java"></i> | <i class="fab fa-react"></i> | Asm</h1>
+                            <br>
+                            Project examples:
+                            <table class="table table-dark">
+                                    <thead>
+                                      <tr>
+                                        <th scope="col">Project name</th>
+                                        <th scope="col">Description</th>
+                                        <th scope="col">Technologies</th>
+                                        <th scope="col">Link</th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <th scope="row">Toy-Language-Interpeter</th>
+                                        <td>Interpret a given Toy Language</td>
+                                        <td>Java</td>
+                                        <td><a href="https://github.com/itoth42/Java-Toy-Language-Interpreter">Toy-Language-Interpeter</a></td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">Wolf3D</th>
+                                        <td>Recreate Wolf in C using raycasting</td>
+                                        <td>C</td>
+                                        <td><a href="https://github.com/itoth42/Wolf3d">Wolf3D</a></td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">Computer system arhitecture</th>
+                                        <td>Create asm code</td>
+                                        <td>Assembly</td>
+                                        <td><a href="https://github.com/itoth42/ComputerSystemArhitecture/">Computer system arhitecture</a></td>
+                                      </tr>
+                                      <tr>
+                                            <th scope="row">Expert-System</th>
+                                            <td>Expert system for propositional calculus</td>
+                                            <td>Python</td>
+                                            <td><a href="https://github.com/itoth42/Expert-System">Expert-System</a></td>
+                                          </tr>
+                                          <tr>
+                                                <th scope="row">Fract-Ol</th>
+                                                <td>This project is meant to create graphically beautiful fractals</td>                                                    </td>
+                                                <td>C</td>
+                                                <td><a href="https://github.com/itoth42/Fract-ol">Fract-Ol</a></td>
+                                              </tr>
+                                    </tbody>
+                                  </table>
+                                  More projects here: <a href="https://github.com/itoth42">My github</a>
+
+                    </div>
+                        <div id="contact">
+                                <div class="header">
+                                        <h1>Do you want to talk?</h1>
+                                </div><br>
+                             <i class="fab fa-facebook"></i> <a href="https://www.facebook.com/imre.toth1999">My facebook</a><br>
+                            <i class="fab fa-linkedin"></i><a href="https://www.linkedin.com/in/imre-toth-01a924153/">My LinkedIn</a><br>
+                            <i class="fas fa-envelope"></i> <a href="mailto:imretoth40@gmail.com" >Send a mail</a>
+                            <br>
+                            </div>
+                                    
+                        </div>    
+      </div>
+     
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+      
+      <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/SplitText.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script>
+      <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+      <script src="script.js"></script>
+       
 </body>
+<footer>
+        <p>&copy; Created by Toth Imre</p>
+      </footer>
 </html>
